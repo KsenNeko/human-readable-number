@@ -2,7 +2,6 @@ const assert = require('assert');
 
 const toReadable = require('./src');
 
-const names = require('./src');
 
 
 it('Should return \'zero\' when 0 given', () => {
