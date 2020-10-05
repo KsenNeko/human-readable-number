@@ -73,6 +73,8 @@ let names =  function(n)
    }
    let str = names(Math.floor(number/100));
    str = str + ' ' + 'hundred';
+   if(number%100 === 0)
+   return str;
    if( number%100 <= 20)
    {
        str = str + ' ' + names(number%100);
